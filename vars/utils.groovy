@@ -1,6 +1,8 @@
 import org.centos.Utils
 
 class utils implements Serializable {
+
+    def utils = new Utils()
 /**
  * Library to prepend 'env.' to the keys in source file and write them in a format of env.key=value in the destination file.
  * @param sourceFile - The file to read from
